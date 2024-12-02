@@ -250,10 +250,3 @@ hapi:
 #  schema_management_strategy: CREATE
 #  username: SomeUsername
 #
-fhir.server.authorization.jwt:
-        issuer: test-issuer
-        resource-id: resource-id
-        jwks-url: https://localhost
-        well-known-url: .well-known
-        authorization-endpoint-uri: https://authserver/auth
-        token-endpoint-uri: http://authserver/token
